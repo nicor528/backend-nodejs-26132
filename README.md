@@ -22,7 +22,7 @@ El objetivo del curso es que los estudiantes aprendan a **desarrollar APIs backe
 
 | Clase | Contenido | Grabación |
 |------|------|------|
-| Clase 1 | Bienvenida y herramientas | Link pendiente |
+| Clase 1 | Bienvenida y herramientas | https://youtu.be/9m9X-NHdgVw |
 | Clase 2 | Introducción a Node.js | Link pendiente |
 | Clase 3 | | |
 | Clase 4 | | |
