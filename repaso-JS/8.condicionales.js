@@ -39,3 +39,13 @@ switch (dia) {
   default:
     console.log("Día normal");
 }
+
+//
+// Ejemplo de ternarios anidados
+//const edad = 20;
+const tipo = edad >= 18 ? "Adulto" : edad >= 13 ? "Adolescente" : "Niño";
+
+// Ejemplo usando AND (&&) y OR (||)
+const usuarioLogueado = true;
+const tienePermiso = true;
+const mensaje3 = (usuarioLogueado && tienePermiso) ? "Acceso concedido" : "Acceso denegado";
