@@ -19,3 +19,6 @@ const persona2 = {
 }
 
 console.log(persona2.apellido); // undefined
+
+persona.edad = 100
+persona.nacionalidad = "Argentino"
