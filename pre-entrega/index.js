@@ -5,7 +5,7 @@ const argumentos = process.argv.slice(2)
 
 const argumentos_validos = ["GET", "POST", "PUT", "DELETE"]
 
-console.log(argumentos)
+//console.log(argumentos)
 
 async function programa_principal(argumentos = []) {
     if (!argumentos[0] in argumentos_validos){
