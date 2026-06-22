@@ -1,0 +1,87 @@
+[
+
+{
+
+"id": 1,
+
+"nombre": "Smartphone Samsung",
+
+"categoria": "electronica",
+
+"precio": 45000,
+
+"stock": 15
+
+},
+
+{
+
+"id": 2,
+
+"nombre": "Zapatillas deportivas",
+
+"categoria": "ropa",
+
+"precio": 99.99,
+
+"stock": 5
+
+},
+
+{
+
+"id": 3,
+
+"nombre": "Libro 'Python'",
+
+"categoria": "educacion",
+
+"precio": 2500,
+
+"stock": 20
+
+},
+
+{
+
+"id": 4,
+
+"nombre": "Teclado mecánico",
+
+"categoria": "electronica",
+
+"precio": 5500,
+
+"stock": 10
+
+},
+
+{
+
+"id": 5,
+
+"nombre": "Guantes de cocina",
+
+"categoria": "cocina",
+
+"precio": 1200,
+
+"stock": 50
+
+},
+
+{
+
+"id": 6,
+
+"nombre": "Monitor 4K 27 pulgadas",
+
+"categoria": "electronica",
+
+"precio": 45000,
+
+"stock": 5
+
+}
+
+]
