@@ -1,6 +1,7 @@
 console.log("Programa iniciado")
 console.log("Hola soy Codex")
 import productsRouter from './src/rutas/products.routes.js';
+import loginRoute from "./src/rutas/auth.routes.js"
 import express from "express";
 import cors from "cors";
 import 'dotenv/config';
@@ -44,6 +45,9 @@ app.use((req, res, next) => {
   next();
 })
 
+app.use("/auth", loginRoute)
+//app.use(authentication);
+
 app.get("/ping", (req, res) => {
   res.send("/pong").status(200)
 })
@@ -72,6 +76,8 @@ app.get('/item/:id', (req, res) => {
   const itemId = req.params.id;
   res.send(`Devolviendo el ítem con ID: ${itemId}`);
 });
+
+//app.use(authentication, productsRouter);
 
 app.use(productsRouter);
 

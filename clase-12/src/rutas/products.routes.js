@@ -1,16 +1,17 @@
 import express from 'express';
 import { createProduct, getAllProducts, getProductById, updateProduct } from '../controladores/products.controller.js';
+import { authentication } from '../middleware/authentication.js';
 const router = express.Router();
 
 router.get('/products', getAllProducts);
 
 router.get("/products/:id", getProductById);
 
-router.post("/products", createProduct);
+router.post("/products", authentication, createProduct);
 
-router.put("/products/:id", updateProduct);
+router.put("/products/:id", authentication, updateProduct);
 
-router.delete("/products/:id")
+router.delete("/products/:id", authentication)
 
 //router.get("")
 
