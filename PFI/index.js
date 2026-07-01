@@ -7,19 +7,7 @@ const app = express();
 
 app.use(cors({
 
-    origin: (origin, callback) => {
-
-        if (!origin || origin === `http://localhost:${PORT}`) {
-
-            callback(null, true);
-
-        } else {
-
-            callback(new Error("No permitido por CORS"));
-
-        }
-
-    },
+    origin: ["*"],
 
     methods: ["GET", "POST", "PUT", "DELETE"],
 
@@ -34,7 +22,7 @@ app.use((req, res, next) => {
     next();
 })
 
-app.use(productsRouter);
+app.use("api/", productsRouter);
 
 app.use(function (req, res, next) {
     res.status(404)
